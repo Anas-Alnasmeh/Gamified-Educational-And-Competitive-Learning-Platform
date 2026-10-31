@@ -18,7 +18,7 @@ export default function ProfilePage() {
     <>
       <PageHeader
         title="أثرُكِ يكبر."
-        subtitle="كل كلمة إنجاز يستحق أن يُرى"
+        subtitle="كل إنجاز يستحق أن يُرى"
         action={
           <button type="button" aria-label="تعديل الملف" className="grid h-12 w-12 place-items-center rounded-2xl bg-brand-soft text-brand transition active:scale-95">
             <Pencil size={20} />
