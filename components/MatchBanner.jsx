@@ -7,7 +7,7 @@ import { cx } from './ui';
 const TOTAL = 30;
 
 export default function MatchBanner() {
-  const [left, setLeft] = useState(24);
+  const [left, setLeft] = useState(TOTAL);
   useEffect(() => {
     const t = setInterval(() => setLeft((s) => (s > 0 ? s - 1 : TOTAL)), 1000);
     return () => clearInterval(t);

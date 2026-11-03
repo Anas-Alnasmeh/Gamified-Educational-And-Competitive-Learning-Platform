@@ -60,7 +60,7 @@ export default function ChallengeMap() {
       </span>
 
       <svg viewBox="0 0 350 415" className="absolute inset-0 h-full w-full" fill="none" aria-hidden>
-        <path d="M287 62 C240 110 150 80 111 125 C80 160 200 140 231 207" stroke="#2F62F0" strokeWidth="3" strokeLinecap="round" />
+        <path d="M287 62 C240 110 150 80 111 125 C130 155 200 135 231 207" stroke="#2F62F0" strokeWidth="3" strokeLinecap="round" />
         <path d="M231 207 C220 260 170 300 91 339 C140 345 200 345 267 367" stroke="#C5CDE2" strokeWidth="2.5" strokeDasharray="4 7" strokeLinecap="round" />
       </svg>
 
@@ -70,7 +70,7 @@ export default function ChallengeMap() {
 
       <div
         key={selected.id}
-        className="absolute start-[4%] top-[43%] w-[50%] rounded-2xl border border-line bg-white p-3.5 shadow-card"
+        className="absolute start-[8.5%] top-[50%] w-[50%] rounded-2xl border border-line bg-white p-3.5 shadow-card"
       >
         <p className="text-[11px] font-bold text-brand">{isCurrent ? 'تحدّيك التالي' : 'أنجزتِه سابقًا'}</p>
         <p className="mt-1 text-lg font-bold leading-tight">{selected.name}</p>
